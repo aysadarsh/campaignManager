@@ -1,0 +1,418 @@
+CRITICAL - 2023-02-19 03:36:23 --> Class "App\Controllers\CallingCampaign\BaseController" not found
+#0 D:\xampp\htdocs\campaignManager\system\Autoloader\Autoloader.php(264): include_once()
+#1 D:\xampp\htdocs\campaignManager\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\campaignManager\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-19 03:37:58 --> Class "App\Controllers\CallingCampaign\BaseController" not found
+#0 D:\xampp\htdocs\campaignManager\system\Autoloader\Autoloader.php(264): include_once()
+#1 D:\xampp\htdocs\campaignManager\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\campaignManager\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-19 03:50:54 --> Class "MongoDB\Client" not found
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(13): App\Libraries\Mconnect->__construct()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(809): App\Controllers\CallingCampaign\Home->__construct()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 07:16:21 --> Class "MongoDB\Client" not found
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(13): App\Libraries\Mconnect->__construct()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(809): App\Controllers\CallingCampaign\Home->__construct()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 07:16:25 --> Class "MongoDB\Client" not found
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(13): App\Libraries\Mconnect->__construct()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(809): App\Controllers\CallingCampaign\Home->__construct()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 07:50:34 --> Failed to parse MongoDB URI: ''. Invalid URI Schema, expecting 'mongodb://' or 'mongodb+srv://'.
+#0 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Client.php(124): MongoDB\Driver\Manager->__construct('', Array, Array)
+#1 D:\xampp\htdocs\campaignManager\app\Libraries\Mconnect.php(20): MongoDB\Client->__construct(false)
+#2 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(13): App\Libraries\Mconnect->__construct()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(809): App\Controllers\CallingCampaign\Home->__construct()
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-19 07:52:14 --> Undefined property: App\Libraries\Mconnect::$CallingCampaign
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 14)
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(809): App\Controllers\CallingCampaign\Home->__construct()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 07:52:58 --> Undefined property: App\Libraries\Mconnect::$CallingCampaign
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 16)
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(809): App\Controllers\CallingCampaign\Home->__construct()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 07:53:08 --> Invalid file: campaign\index.php
+#0 D:\xampp\htdocs\campaignManager\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('campaign\\index....')
+#1 D:\xampp\htdocs\campaignManager\system\Common.php(1089): CodeIgniter\View\View->render('campaign\\index', Array, true)
+#2 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(21): view('campaign\\index')
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->index()
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#5 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-02-19 08:01:05 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::is()
+#0 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-19 08:05:34 --> Undefined property: App\Controllers\CallingCampaign\Home::$callingCamapign
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 29)
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 08:05:57 --> Call to undefined method MongoDB\Database::find()
+#0 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-19 08:06:15 --> Call to undefined method MongoDB\Database::findOne()
+#0 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-19 08:16:23 --> Class "App\Controllers\CallingCampaign\MongoDB\BSON\UTCDateTime" not found
+#0 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-19 08:19:48 --> A non-numeric value encountered
+#0 D:\xampp\htdocs\campaignManager\app\Libraries\Mconnect.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\xampp\\htdocs...', 30)
+#1 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(15): App\Libraries\Mconnect->__construct()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(809): App\Controllers\CallingCampaign\Home->__construct()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 08:20:17 --> A non-numeric value encountered
+#0 D:\xampp\htdocs\campaignManager\app\Libraries\Mconnect.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\xampp\\htdocs...', 30)
+#1 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(15): App\Libraries\Mconnect->__construct()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(809): App\Controllers\CallingCampaign\Home->__construct()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 08:20:27 --> Error parsing "2023-02-19 08:20:27" as 64-bit integer for MongoDB\BSON\UTCDateTime initialization
+#0 D:\xampp\htdocs\campaignManager\app\Libraries\Mconnect.php(30): MongoDB\BSON\UTCDateTime->__construct('2023-02-19 08:2...')
+#1 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(15): App\Libraries\Mconnect->__construct()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(809): App\Controllers\CallingCampaign\Home->__construct()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 08:21:54 --> Undefined property: App\Controllers\CallingCampaign\Home::$mongo
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 36)
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 08:22:43 --> Attempt to read property "timestamp" on null
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 08:23:07 --> Attempt to read property "timestamp" on null
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 36)
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 08:26:47 --> Attempt to read property "timestamp" on null
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 36)
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 08:27:08 --> Undefined variable $mongoConnet
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 17)
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(809): App\Controllers\CallingCampaign\Home->__construct()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 08:28:56 --> Undefined property: App\Controllers\CallingCampaign\Home::$session
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 38)
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 10:05:36 --> Call to a member function findOne() on null
+#0 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-19 10:07:41 --> Attempt to read property "collection" on null
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 20)
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(809): App\Controllers\CallingCampaign\Home->__construct()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 10:10:23 --> Attempt to read property "collection" on null
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 20)
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(809): App\Controllers\CallingCampaign\Home->__construct()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 10:15:38 --> Call to a member function findCampaign() on null
+#0 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-19 10:16:45 --> Call to a member function findCampaign() on null
+#0 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-19 10:17:05 --> Call to a member function findCampaign() on null
+#0 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-19 10:17:30 --> Class "App\Controllers\CallingCampaign\model" not found
+#0 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-19 10:17:58 --> Class "App\Libraries\DatabaseConnector" not found
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(31): App\Models\CampaignModel->__construct()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 10:18:42 --> Class "App\Libraries\MdatabaseConnector" not found
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(31): App\Models\CampaignModel->__construct()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 10:19:37 --> Call to undefined function App\Libraries\show_error()
+#0 D:\xampp\htdocs\campaignManager\app\Models\CampaignModel.php(13): App\Libraries\MdatabaseConnector->__construct()
+#1 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(31): App\Models\CampaignModel->__construct()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 10:21:51 --> Please declare MONGO_URI AND MONGO_DATABASE in your .env file
+#0 D:\xampp\htdocs\campaignManager\app\Models\CampaignModel.php(13): App\Libraries\MdatabaseConnector->__construct()
+#1 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(31): App\Models\CampaignModel->__construct()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 10:22:34 --> Call to a member function selectDatabase() on null
+#0 D:\xampp\htdocs\campaignManager\app\Models\CampaignModel.php(13): App\Libraries\MdatabaseConnector->__construct()
+#1 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(31): App\Models\CampaignModel->__construct()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 10:23:37 --> Call to undefined method App\Libraries\MdatabaseConnector::getDatabase()
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(31): App\Models\CampaignModel->__construct()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 10:24:16 --> Call to a member function insertOne() on null
+#0 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-19 10:30:30 --> Class "App\Models\MongoDB\BSON\UTCDateTime" not found
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(39): App\Models\CampaignModel->insert('test')
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 10:30:43 --> Undefined variable $date
+#0 D:\xampp\htdocs\campaignManager\app\Models\CampaignModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 42)
+#1 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(39): App\Models\CampaignModel->insert('test')
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 10:30:56 --> db already exists with different case already have: [callingCampaign] trying to create [CallingCampaign]
+#0 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Operation\InsertOne.php(123): MongoDB\Driver\Server->executeBulkWrite('CallingCampaign...', Object(MongoDB\Driver\BulkWrite), Array)
+#1 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Collection.php(919): MongoDB\Operation\InsertOne->execute(Object(MongoDB\Driver\Server))
+#2 D:\xampp\htdocs\campaignManager\app\Models\CampaignModel.php(42): MongoDB\Collection->insertOne(Array)
+#3 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(39): App\Models\CampaignModel->insert('test')
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#5 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#6 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-19 10:31:39 --> db already exists with different case already have: [callingCampaign] trying to create [CallingCampaign]
+#0 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Operation\InsertOne.php(123): MongoDB\Driver\Server->executeBulkWrite('CallingCampaign...', Object(MongoDB\Driver\BulkWrite), Array)
+#1 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Collection.php(919): MongoDB\Operation\InsertOne->execute(Object(MongoDB\Driver\Server))
+#2 D:\xampp\htdocs\campaignManager\app\Models\CampaignModel.php(43): MongoDB\Collection->insertOne(Array)
+#3 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(39): App\Models\CampaignModel->insert('test')
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#5 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#6 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-19 10:32:03 --> db already exists with different case already have: [callingCampaign] trying to create [CallingCampaign]
+#0 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Operation\InsertOne.php(123): MongoDB\Driver\Server->executeBulkWrite('CallingCampaign...', Object(MongoDB\Driver\BulkWrite), Array)
+#1 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Collection.php(919): MongoDB\Operation\InsertOne->execute(Object(MongoDB\Driver\Server))
+#2 D:\xampp\htdocs\campaignManager\app\Models\CampaignModel.php(42): MongoDB\Collection->insertOne(Array)
+#3 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(39): App\Models\CampaignModel->insert('test')
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#5 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#6 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-19 10:32:38 --> db already exists with different case already have: [callingCampaign] trying to create [CallingCampaign]
+#0 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Operation\InsertOne.php(123): MongoDB\Driver\Server->executeBulkWrite('CallingCampaign...', Object(MongoDB\Driver\BulkWrite), Array)
+#1 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Collection.php(919): MongoDB\Operation\InsertOne->execute(Object(MongoDB\Driver\Server))
+#2 D:\xampp\htdocs\campaignManager\app\Models\CampaignModel.php(45): MongoDB\Collection->insertOne(Array)
+#3 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(39): App\Models\CampaignModel->insert('test')
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#5 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#6 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-19 10:50:39 --> db already exists with different case already have: [callingCampaign] trying to create [CallingCampaign]
+#0 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Operation\InsertOne.php(123): MongoDB\Driver\Server->executeBulkWrite('CallingCampaign...', Object(MongoDB\Driver\BulkWrite), Array)
+#1 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Collection.php(919): MongoDB\Operation\InsertOne->execute(Object(MongoDB\Driver\Server))
+#2 D:\xampp\htdocs\campaignManager\app\Models\CampaignModel.php(54): MongoDB\Collection->insertOne(Array)
+#3 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(39): App\Models\CampaignModel->insert('asdf')
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#5 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#6 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-19 10:53:43 --> db already exists with different case already have: [callingCampaign] trying to create [CallingCampaign]
+#0 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Operation\InsertOne.php(123): MongoDB\Driver\Server->executeBulkWrite('CallingCampaign...', Object(MongoDB\Driver\BulkWrite), Array)
+#1 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Collection.php(919): MongoDB\Operation\InsertOne->execute(Object(MongoDB\Driver\Server))
+#2 D:\xampp\htdocs\campaignManager\app\Models\CampaignModel.php(54): MongoDB\Collection->insertOne(Array)
+#3 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(39): App\Models\CampaignModel->insert('json')
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#5 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#6 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-19 10:55:16 --> db already exists with different case already have: [callingCampaign] trying to create [CallingCampaign]
+#0 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Operation\InsertOne.php(123): MongoDB\Driver\Server->executeBulkWrite('CallingCampaign...', Object(MongoDB\Driver\BulkWrite), Array)
+#1 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Collection.php(919): MongoDB\Operation\InsertOne->execute(Object(MongoDB\Driver\Server))
+#2 D:\xampp\htdocs\campaignManager\app\Models\CampaignModel.php(54): MongoDB\Collection->insertOne(Array)
+#3 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(39): App\Models\CampaignModel->insertCampaign('json')
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#5 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#6 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-19 10:55:49 --> db already exists with different case already have: [callingCampaign] trying to create [CallingCampaign]
+#0 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Operation\InsertOne.php(123): MongoDB\Driver\Server->executeBulkWrite('CallingCampaign...', Object(MongoDB\Driver\BulkWrite), Array)
+#1 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Collection.php(919): MongoDB\Operation\InsertOne->execute(Object(MongoDB\Driver\Server))
+#2 D:\xampp\htdocs\campaignManager\app\Models\CampaignModel.php(59): MongoDB\Collection->insertOne(Array)
+#3 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(39): App\Models\CampaignModel->insertCampaign('json')
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#5 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#6 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-19 10:56:13 --> db already exists with different case already have: [callingCampaign] trying to create [CallingCampaign]
+#0 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Operation\InsertOne.php(123): MongoDB\Driver\Server->executeBulkWrite('CallingCampaign...', Object(MongoDB\Driver\BulkWrite), Array)
+#1 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Collection.php(919): MongoDB\Operation\InsertOne->execute(Object(MongoDB\Driver\Server))
+#2 D:\xampp\htdocs\campaignManager\app\Models\CampaignModel.php(59): MongoDB\Collection->insertOne(Array)
+#3 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(39): App\Models\CampaignModel->insertCampaign('json')
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#5 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#6 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-19 10:57:13 --> strtotime() expects at least 1 argument, 0 given
+#0 D:\xampp\htdocs\campaignManager\app\Models\CampaignModel.php(49): strtotime()
+#1 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(39): App\Models\CampaignModel->insertCampaign('json')
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-02-19 10:57:26 --> Call to undefined function App\Models\now()
+#0 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(39): App\Models\CampaignModel->insertCampaign('json')
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#3 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-02-19 10:57:59 --> db already exists with different case already have: [callingCampaign] trying to create [CallingCampaign]
+#0 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Operation\InsertOne.php(123): MongoDB\Driver\Server->executeBulkWrite('CallingCampaign...', Object(MongoDB\Driver\BulkWrite), Array)
+#1 D:\xampp\htdocs\campaignManager\vendor\mongodb\mongodb\src\Collection.php(919): MongoDB\Operation\InsertOne->execute(Object(MongoDB\Driver\Server))
+#2 D:\xampp\htdocs\campaignManager\app\Models\CampaignModel.php(59): MongoDB\Collection->insertOne(Array)
+#3 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(39): App\Models\CampaignModel->insertCampaign('json')
+#4 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#5 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#6 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-02-19 10:59:23 --> Call to undefined method App\Controllers\CallingCampaign\Home::setFlashdata()
+#0 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-19 11:02:49 --> Call to undefined method App\Controllers\CallingCampaign\Home::redirect()
+#0 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#1 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#2 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-02-19 11:21:33 --> Undefined property: CodeIgniter\View\View::$validation
+#0 D:\xampp\htdocs\campaignManager\app\Views\campaign\create.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 7)
+#1 D:\xampp\htdocs\campaignManager\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\campaignManager\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\campaignManager\system\Common.php(1089): CodeIgniter\View\View->render('campaign\\create', Array, true)
+#4 D:\xampp\htdocs\campaignManager\app\Controllers\CallingCampaign\Home.php(56): view('campaign\\create')
+#5 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(832): App\Controllers\CallingCampaign\Home->create()
+#6 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CallingCampaign\Home))
+#7 D:\xampp\htdocs\campaignManager\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\campaignManager\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
